@@ -26,12 +26,13 @@ jobs:
           --health-retries=5
 
     env:
-      PROJECT_NAME: Clinical Case Tracker API
-      API_V1_PREFIX: /api/v1
-      DATABASE_URL: postgresql+psycopg2://postgres:postgres@localhost:5432/clinical_cases_test
-      SECRET_KEY: test-secret-key
-      ACCESS_TOKEN_EXPIRE_MINUTES: 10080
-      AI_PROVIDER: mock
+          PROJECT_NAME: Clinical Case Tracker API
+          API_V1_PREFIX: /api/v1
+          DATABASE_URL: postgresql+psycopg2://postgres:postgres@localhost:5432/clinical_cases_test
+          SECRET_KEY: test-secret-key
+          ACCESS_TOKEN_EXPIRE_MINUTES: 10080
+          AI_PROVIDER: mock
+          PYTHONPATH: .
 
     steps:
       - name: Checkout code
