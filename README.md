@@ -1,5 +1,7 @@
 # Clinical Case Tracker API
 
+![Tests](https://github.com/BammatSaidov/clinical-case-tracker-api/actions/workflows/tests.yml/badge.svg)
+
 FastAPI backend project for managing clinical and dental laboratory cases.
 
 The project demonstrates practical Python backend development skills: REST API design, JWT authentication, PostgreSQL, SQLAlchemy ORM, Docker, Swagger documentation, testing, status history tracking, checklists, comments and mock AI summaries without paid external services.
